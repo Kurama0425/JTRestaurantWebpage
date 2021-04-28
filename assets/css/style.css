@@ -848,7 +848,8 @@ section {
 
 .about .content h3 {
   font-weight: 600;
-  font-size: 26px;
+  font-size: 36px;
+  text-align: center;
 }
 
 .about .content ul {
@@ -861,7 +862,7 @@ section {
 }
 
 .about .content ul i {
-  font-size: 20px;
+  font-size: 30px;
   padding-right: 4px;
   color: #cda45e;
 }
