@@ -1653,6 +1653,7 @@ section {
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
+  align-self: auto;
 }
 
 #footer .footer-top {
@@ -1667,7 +1668,7 @@ section {
 }
 
 #footer .footer-top .footer-info h3 {
-  font-size: 24px;
+  font-size: 30px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
@@ -1682,20 +1683,20 @@ section {
   margin-bottom: 0;
   font-family: "Playfair Display", serif;
   color: #fff;
+  justify-content: center;
 }
 
 #footer .footer-top .social-links a {
-  font-size: 18px;
+  font-size: 36px;
   display: inline-block;
   background: #28251f;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
-  margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 60px;
+  height: 60px;
   transition: 0.3s;
 }
 
