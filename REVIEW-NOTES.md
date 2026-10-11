@@ -13,8 +13,8 @@ it has not been merged or deployed. No Bluehost or production work is included.
   instead of publishing unconfirmed booking policies.
 - Added a dedicated, linked memorial using the project owner's full supplied
   tribute, including the title, subtitle, six paragraphs, and closing dedication.
-  A visible draft note retains the confirmation requirement for the time spans
-  and founding/ownership/handover history without rewriting the supplied tribute.
+  Travis has approved the memorial, as confirmed by the project owner. The
+  visible draft note has been removed; the approved tribute is unchanged.
 - Flanked the tribute with a generated symbolic empty-chair-and-guitar still life
   and a reserved frame for Travis's forthcoming photograph of John. The desktop
   layout has three columns; smaller screens rearrange and stack for readability.
@@ -32,30 +32,20 @@ it has not been merged or deployed. No Bluehost or production work is included.
   to two favicon files absent from the repository. Fixed an unclosed About list,
   a heading closing tag, invalid margin declarations, and missing footer wrappers.
 
-## Travis's confirmation before publication
+## Approval and remaining review
 
-1. Approve the memorial's tone and the wording about the restaurant passing into
-   Travis's care. Confirm the precise ownership and handover chronology; no dates
-   or legal succession details have been inferred.
-2. Confirm the recollection of **40+ years as a chef** and **over a decade at
-   JT's at the Lavalette**. The old page said the Gretna restaurant began in 2011,
-   which does not align with over a decade before an August 2020 move. The draft
-   deliberately omits 2011 and keeps these durations qualified in the review note.
-   Confirm the preferred spelling/styling of the former restaurant's name too.
-3. The August 2020 opening, John + Travis name, and guitar/singing details follow
-   the project owner's supplied information. Have Travis approve the final history.
-4. Menu photos have now been supplied and transcribed. All five blacked-out
-   scallop prices were confirmed as MP by the project owner. No unreadable prices
-   remain, and no prices were estimated. Review `MENU-REVIEW.md` with the photos.
-5. Confirm private-room capacity, booking lead time, and deposit policy. The
-   previous two-week rule has been replaced with a request to contact the team.
-6. Confirm the existing phone, email, address, hours, and 24-hour website
-   reservation lead time remain correct; they were carried forward, not verified
-   with the restaurant. Remove the visible memorial draft note after approval.
-7. Supply Travis's approved photograph of John to replace `.portrait-placeholder`
-   inside `.memorial-portrait` in `index.html`. Keep the actual person and crop
-   intact; use descriptive alt text and the existing frame. The placeholder is
-   intentionally text, not a broken image or a public upload control.
+The project owner has confirmed Travis's approval of the memorial. Its wording
+is approved and no longer carries a draft note. The remaining supplied asset is
+John's photograph. The project owner still needs to review the complete website
+refresh; the pull request remains a draft, with no merge or deployment authorized.
+
+Replace `.portrait-placeholder` inside `.memorial-portrait` in `index.html`
+with Travis's photograph when supplied. Preserve the person and use descriptive
+alt text. The reserved frame is not a public upload control.
+
+Menu photos and the five blacked-out MP prices are resolved. Private dining
+invites guests to contact the restaurant for arrangements. Existing contact
+details, hours, and the 24-hour reservation lead time remain carried forward.
 
 ## Preservation and checks
 
@@ -102,8 +92,8 @@ Generation prompt:
 ## Follow-up review of the complete refresh
 
 - Rechecked the available `JT Restaurant Work` chat context and the entire diff
-  against original main, not just the memorial update. The historical chronology
-  remains unresolved and flagged; August 2020 remains in the homepage/About.
+  against original main, not just the memorial update. Travis has since approved the
+  supplied memorial; August 2020 remains in the homepage/About.
 - Repeated the five-width browser checks, including the memorial's desktop
   left/text/right placement and mobile stacking. All passed. Reviewed desktop
   and phone memorial screenshots; the whole chair and guitar remain visible.
