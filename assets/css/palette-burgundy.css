@@ -1,0 +1,90 @@
+/* Optional color-only experiment. Remove this stylesheet link to restore the audited gold palette. */
+:root {
+  --jt-burgundy: #481f2b;
+  --jt-cream: #f3e8d8;
+  --jt-brass: #c09a61;
+  --jt-espresso: #26211f;
+  --jt-gold: var(--jt-brass);
+  --jt-muted: var(--jt-cream);
+}
+body { background: var(--jt-espresso); color: var(--jt-cream); }
+a, .section-title p { color: var(--jt-brass); }
+a:hover { color: var(--jt-cream); }
+::selection { background: var(--jt-cream); color: var(--jt-burgundy); }
+.section-bg { background: var(--jt-burgundy); }
+.section-title h2 { color: var(--jt-cream); }
+.section-title h2::after { background: var(--jt-brass); }
+#topbar { color: var(--jt-cream); background: var(--jt-espresso); }
+#topbar .contact-info i { color: var(--jt-brass); }
+#header, #header.header-scrolled { background: var(--jt-burgundy); border-color: var(--jt-brass); }
+#header .logo a, .nav-menu a { color: var(--jt-cream); }
+.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a { color: var(--jt-brass); }
+.nav-menu .book-a-table a, .mobile-nav .book-a-table a { border-color: var(--jt-brass); color: var(--jt-cream); }
+.nav-menu .book-a-table a:hover, .mobile-nav .book-a-table a:hover { background: var(--jt-brass); color: var(--jt-espresso); }
+.mobile-nav { background: var(--jt-burgundy); border-color: var(--jt-brass); }
+.mobile-nav a, .mobile-nav .mobile-nav-close, .mobile-nav-toggle { color: var(--jt-cream); }
+.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a { color: var(--jt-brass); }
+.mobile-nav-overly { background: rgba(38,33,31,.8); }
+#hero:before { background: linear-gradient(90deg, rgba(38,33,31,.9), rgba(38,33,31,.7)); }
+#hero h1, #hero h2, #hero p { color: var(--jt-cream); }
+#hero h1 span { color: var(--jt-brass); }
+#hero .btn-menu, #hero .btn-book { border-color: var(--jt-brass); }
+#hero .btn-menu, #hero .btn-menu:hover, #hero .btn-book:hover { color: var(--jt-espresso); background: var(--jt-brass); }
+#hero .btn-book { color: var(--jt-cream); background: var(--jt-burgundy); }
+.about::before, .events::before { background: rgba(38,33,31,.9); }
+.about .about-img img { border-color: var(--jt-brass); }
+.about .about-img::before, .about .about-img::after { border-color: var(--jt-brass); }
+.about .content ul i, .events .event-item h3 { color: var(--jt-brass); }
+.story-link { color: var(--jt-brass); border-color: var(--jt-brass); }
+.why-us .box { background: var(--jt-burgundy); border-color: var(--jt-brass); }
+.why-us .box h3, .why-us .box p { color: var(--jt-cream); }
+.why-us .box span { color: var(--jt-brass); }
+.why-us .box:hover { background: var(--jt-brass); }
+.why-us .box:hover :is(h3,span,p) { color: var(--jt-espresso); }
+.memorial { background: var(--jt-espresso); }
+.memorial-card { background: var(--jt-burgundy); border-color: var(--jt-brass); }
+.memorial h2, .memorial-copy { color: var(--jt-cream); }
+.memorial-subtitle, .memorial-closing, .eyebrow, .portrait-name { color: var(--jt-brass); }
+.memorial-card figure img, .portrait-placeholder { background: var(--jt-espresso); border-color: var(--jt-brass); }
+.portrait-placeholder { background: linear-gradient(145deg, #481f2b, #26211f); }
+.portrait-description, .portrait-pending, .memorial-card figcaption { color: var(--jt-cream); }
+.portrait-rule { background: var(--jt-brass); }
+#menu.printed-menu { background: var(--jt-espresso); }
+#menu #menu-title { color: var(--jt-cream); }
+#menu .menu-intro-subtitle, #menu .menu-ornament, #menu .eyebrow { color: var(--jt-brass); }
+#menu .menu-ornament::before, #menu .menu-ornament::after { background: var(--jt-brass); }
+#menu .menu-jump { background: var(--jt-burgundy); border-color: var(--jt-brass); box-shadow: 0 8px 24px rgba(38,33,31,.2); }
+#menu .menu-jump-links a, #menu .menu-jump-mobile label { color: var(--jt-cream); }
+#menu .menu-jump-links a:hover, #menu .menu-jump-links a:focus-visible { color: var(--jt-cream); background: var(--jt-espresso); }
+#menu .menu-jump-mobile select { background: var(--jt-espresso); color: var(--jt-cream); border-color: var(--jt-brass); }
+#menu .menu-pages { background: var(--jt-cream); border-color: var(--jt-brass); }
+#menu .menu-chapter h3, #menu .menu-chapter-heading > span, #menu .dish-price { color: var(--jt-burgundy); }
+#menu .dish h4, #menu .dish-description, #menu .menu-fine-print { color: var(--jt-espresso); }
+#menu .dish { border-color: rgba(72,31,43,.2); }
+#menu .menu-chapter + .menu-chapter, #menu .menu-fine-print { border-color: var(--jt-brass); }
+#menu .menu-fine-print a, #menu .menu-fine-print a:hover { color: var(--jt-burgundy); }
+.events .events-carousel { background: rgba(38,33,31,.65); }
+.events .owl-dot::after { background: var(--jt-cream); }
+.events .owl-dot.active::after { background: var(--jt-brass); }
+.reservation-note { color: var(--jt-cream); }
+.php-email-form label { color: var(--jt-cream); }
+.php-email-form input, .php-email-form textarea { background: var(--jt-espresso); color: var(--jt-cream); border-color: var(--jt-brass) !important; }
+.php-email-form input:focus, .php-email-form textarea:focus { background: var(--jt-espresso); color: var(--jt-cream); }
+.php-email-form input::placeholder, .php-email-form textarea::placeholder { color: var(--jt-cream) !important; }
+.php-email-form button[type="submit"], .php-email-form button[type="submit"]:hover { background: var(--jt-brass); color: var(--jt-espresso) !important; }
+.php-email-form .loading { background: var(--jt-espresso); color: var(--jt-cream); }
+.php-email-form .loading::before { border-color: var(--jt-brass); border-top-color: var(--jt-espresso); }
+.php-email-form .validate { color: var(--jt-cream) !important; }
+.php-email-form .error-message, .php-email-form .sent-message { color: var(--jt-cream); background: var(--jt-burgundy) !important; }
+.contact .info i { background: var(--jt-brass); color: var(--jt-espresso); }
+.contact .info h3, .contact .info p { color: var(--jt-cream); }
+#footer, #footer .footer-top { background: var(--jt-burgundy); color: var(--jt-cream); border-color: var(--jt-brass); }
+#footer .footer-top .social-links a { background: var(--jt-espresso); color: var(--jt-cream); }
+#footer .footer-top .social-links a:hover { background: var(--jt-brass); color: var(--jt-espresso); }
+.back-to-top { border-color: var(--jt-brass); background: var(--jt-espresso); }
+.back-to-top i { color: var(--jt-brass); }
+.back-to-top:hover { background: var(--jt-brass); }
+.back-to-top:hover i { color: var(--jt-espresso); }
+.skip-link { background: var(--jt-burgundy); color: var(--jt-cream); }
+:is(a,button,input,textarea,select):focus-visible { outline-color: var(--jt-cream) !important; }
+#menu .menu-pages a:focus-visible { outline-color: var(--jt-burgundy) !important; }
