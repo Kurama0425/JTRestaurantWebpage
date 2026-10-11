@@ -56,7 +56,7 @@ details, hours, and the 24-hour reservation lead time remain carried forward.
   eight MP entries (three printed Market Price entries and five owner-confirmed
   blacked-out entries). Superseded menu prices and descriptions were replaced.
 - Local Chromium checks at 1440, 1024, 768, 390, and 320 pixels: no horizontal
-  page overflow; restaurant/menu images load; all eight menu category filters work;
+  page overflow; restaurant/menu images load; all eight menu category jump links and the mobile picker work;
   mobile navigation opens and reaches the memorial, then closes.
 - No JavaScript exceptions or missing local resources during those checks.
   Desktop and mobile screenshots were inspected. External Google Fonts and Maps
@@ -71,12 +71,13 @@ details, hours, and the 24-hour reservation lead time remain carried forward.
 ## Review locally
 
 Serve this directory with a local static server and open `index.html`. This is
-enough to inspect styling, navigation, menu filtering, and draft copy. A static
+enough to inspect styling, navigation, category navigation, and approved copy. A static
 server cannot execute the PHP forms; do not interpret that as a production form
 failure. Review the complete diff against main before considering any release.
 
 Changes are limited to `index.html`, `assets/css/style.css`, the additive
-`assets/css/refresh.css`, the new memorial image, `MENU-REVIEW.md`, and this
+`assets/css/refresh.css`, scoped `assets/css/menu.css` and `assets/js/menu.js`,
+the new memorial image, `MENU-REVIEW.md`, and this
 document. Existing restaurant image binaries are unchanged.
 
 ## Memorial image provenance
@@ -104,3 +105,25 @@ Generation prompt:
   memorial, its layout and symbolic image, and the photo-based menu update.
 - External font/map rendering and PHP mail delivery remain unverified locally.
   Main, Bluehost, and live production remain untouched.
+
+## Menu presentation redesign
+
+- Only the menu presentation changed in this follow-up. Existing homepage,
+  About, memorial, private dining, footer, and form HTML are byte-equivalent
+  apart from the added menu stylesheet/script includes and menu section.
+- Printed-menu inspiration: centered restaurant/menu heading, numbered category
+  headings, restrained gold rules, serif dish titles, aligned prices, and no
+  repetitive stock-style dish thumbnails. Desktop dishes use two columns; phones
+  use one column with readable descriptions.
+- All eight categories remain visible for scrolling. Desktop links jump to each
+  heading; a sticky native category picker provides phone navigation. Plain
+  category links remain when the menu enhancement is unavailable.
+- Market Price is written in full per the latest request. The 53 photo-verified
+  names, descriptions, and numeric prices remain unchanged.
+- Five viewport widths (320, 390, 768, 1024, 1440) checked for page/dish overflow,
+  exact menu text, and all eight category destinations. No JavaScript exceptions.
+- Existing style.css, refresh.css, main.js, PHP handlers, and form validation
+  files are unchanged from the preceding approved refresh. New CSS is scoped to
+  #menu. Direct category links account for the sticky category bar.
+- A local-only comparison preserves the preceding design beside the new one.
+  Preview servers reject form submissions and PHP requests. Neither is deployed.

@@ -2,7 +2,7 @@
 
 Sources: the project owner's 17234.heic (appetizers, soup/salad, kids, desserts, beverages) and 17235.heic (entrees, pasta, sides, add-ons). These replace the old website's menu copy and prices. Original photos are unchanged and are not published to the repository.
 
-Printed Market Price is displayed as **MP**, never $MP. Handwritten prices take precedence over printed prices; no readable handwritten numeric replacements were visible in these two photos. The five blacked-out scallop prices were initially flagged because their MP annotations were not legible. The project owner explicitly confirmed that all five are MP: grilled and blackened scallop appetizers, grilled scallops entree, grilled shrimp and scallops entree, and grilled scallops add-on. No prices remain unreadable or unresolved.
+Market-price entries now display **Market Price** in full, per the latest design request; the transcription table retains MP as shorthand. Handwritten prices take precedence over printed prices; no readable handwritten numeric replacements were visible in these two photos. The five blacked-out scallop prices were initially flagged because their MP annotations were not legible. The project owner explicitly confirmed that all five are MP: grilled and blackened scallop appetizers, grilled scallops entree, grilled shrimp and scallops entree, and grilled scallops add-on. No prices remain unreadable or unresolved.
 
 | Category | Item | Price | Description from photo |
 | --- | --- | --- | --- |
@@ -71,4 +71,4 @@ Printed Market Price is displayed as **MP**, never $MP. Handwritten prices take 
 
 ## Validation
 
-Menu rows and prices are compared with this transcription in browser checks. Existing category filtering remains in place, with a Beverages filter added. Forms, handlers, validation scripts, and other site content are preserved.
+Menu rows and prices are compared with this transcription in browser checks. The redesigned presentation uses eight always-visible category sections, desktop jump links, and a mobile category picker. This replaces the former filtering grid without hiding dishes. Forms, handlers, validation scripts, and other site content are preserved.

@@ -1,0 +1,57 @@
+/* Printed-menu inspired presentation. All rules are scoped to the menu. */
+#menu.printed-menu { padding: 88px 0; background: #171510; }
+#menu .menu-intro { text-align: center; padding: 0 20px 32px; }
+#menu .menu-intro .eyebrow { margin-bottom: 16px; }
+#menu #menu-title { font-size: clamp(38px, 5vw, 58px); color: #f4ead7; margin: 0; scroll-margin-top: 110px; }
+#menu .menu-intro-subtitle { font-family: "Playfair Display", serif; font-style: italic; font-size: 21px; color: var(--jt-gold); margin: 14px 0; }
+#menu .menu-ornament { display: flex; align-items: center; justify-content: center; gap: 18px; color: var(--jt-gold); }
+#menu .menu-ornament::before, #menu .menu-ornament::after { content: ""; width: 72px; height: 1px; background: #655132; }
+#menu .menu-jump { position: sticky; top: 70px; z-index: 20; background: #211d16; border: 1px solid #57452c; box-shadow: 0 8px 24px #0003; }
+#menu .menu-jump-links { display: flex; flex-wrap: wrap; justify-content: center; padding: 12px; gap: 2px 8px; }
+#menu .menu-jump-links a { padding: 10px 12px; color: #e9dfcf; font-size: 14px; line-height: 1.7; border-radius: 2px; }
+#menu .menu-jump-links a:hover, #menu .menu-jump-links a:focus-visible { background: #362c1e; color: #e7c68d; }
+#menu .menu-jump-mobile { display: none; }
+#menu .menu-pages { padding: 0 48px; border: 1px solid #57452c; border-top: 0; background: #100f0c; }
+#menu .menu-chapter { padding: 46px 0 14px; scroll-margin-top: 174px; }
+#menu .menu-chapter + .menu-chapter { border-top: 1px solid #3b3225; }
+#menu .menu-chapter-heading { display: flex; align-items: baseline; gap: 16px; margin-bottom: 20px; }
+#menu .menu-chapter-heading > span { font-size: 12px; letter-spacing: 2px; color: #b49a70; }
+#menu .menu-chapter h3 { font-size: 32px; color: var(--jt-gold); margin: 0; }
+#menu .dish-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 48px; }
+#menu .dish { min-width: 0; padding: 20px 0 24px; border-bottom: 1px solid #ffffff0d; }
+#menu .dish-heading { display: flex; align-items: baseline; gap: 16px; justify-content: space-between; }
+#menu .dish h4 { font-family: "Playfair Display", Georgia, serif; font-size: 21px; line-height: 1.4; margin: 0; color: #f2e9db; min-width: 0; }
+#menu .dish-price { flex-shrink: 0; color: #dec18e; font-size: 16px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+#menu .market-price { font-size: 14px; font-style: italic; }
+#menu .dish-description { margin: 10px 0 0; color: #c7c0b4; font-size: 15px; line-height: 1.8; }
+#menu .menu-fine-print { padding: 32px 0 40px; color: #c7c0b4; font-size: 14px; border-top: 1px solid #57452c; }
+#menu .menu-fine-print p { margin: 0 0 8px; }
+#menu .menu-fine-print a { display: inline-block; padding: 12px 0; }
+@media (max-width: 991px) {
+  #menu .menu-pages { padding: 0 28px; }
+  #menu .dish-grid { column-gap: 28px; }
+  #menu .menu-chapter { scroll-margin-top: 220px; }
+}
+@media (max-width: 767px) {
+  #menu.printed-menu { padding: 56px 0; }
+  #menu .menu-jump { top: 58px; }
+  #menu .menu-jump-links { gap: 0; padding: 8px; }
+  #menu .menu-jump-links a { padding: 8px; }
+  #menu.menu-enhanced .menu-jump-links { display: none; }
+  #menu.menu-enhanced .menu-jump-mobile { display: flex; flex-direction: column; padding: 12px 16px; gap: 6px; }
+  #menu .menu-jump-mobile label { margin: 0; color: #c7c0b4; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; }
+  #menu .menu-jump-mobile select { width: 100%; min-height: 44px; padding: 8px 12px; font: inherit; font-size: 16px; color: #f2e9db; border: 1px solid #6b5633; border-radius: 2px; background: #100f0c; }
+  #menu .menu-pages { padding: 0 20px; }
+  #menu .dish-grid { grid-template-columns: minmax(0, 1fr); }
+  #menu .menu-chapter { padding-top: 32px; scroll-margin-top: 190px; }
+  #menu .menu-chapter h3 { font-size: 29px; }
+  #menu .dish { padding: 18px 0; }
+  #menu .dish h4 { font-size: 20px; }
+  #menu .dish-heading { gap: 10px; }
+  #menu .dish-description { font-size: 16px; line-height: 1.7; }
+  #menu .market-price { max-width: 64px; white-space: normal; text-align: right; line-height: 1.4; }
+}
+@media print {
+  #menu .menu-jump { display: none; }
+  #menu .dish { break-inside: avoid; }
+}
