@@ -49,9 +49,7 @@ details, hours, and the 24-hour reservation lead time remain carried forward.
 
 ## Preservation and checks
 
-- Both complete form blocks match main, including actions, methods, field names,
-  validation attributes, and success/error messages. No PHP handler, form library,
-  validation script, or `assets/js/main.js` changes.
+- The accessibility/security audit adds visible labels, linked errors, keyboard navigation and safe client-side error rendering. PHP handlers and the mail library remain byte-identical; POST actions, fields, validation rules and email destinations are preserved. See `AUDIT.md` for results and remaining hosting checks.
 - All 53 menu entries match the photo transcription in `MENU-REVIEW.md`, including
   eight MP entries (three printed Market Price entries and five owner-confirmed
   blacked-out entries). Superseded menu prices and descriptions were replaced.
@@ -75,10 +73,7 @@ enough to inspect styling, navigation, category navigation, and approved copy. A
 server cannot execute the PHP forms; do not interpret that as a production form
 failure. Review the complete diff against main before considering any release.
 
-Changes are limited to `index.html`, `assets/css/style.css`, the additive
-`assets/css/refresh.css`, scoped `assets/css/menu.css` and `assets/js/menu.js`,
-the new memorial image, `MENU-REVIEW.md`, and this
-document. Existing restaurant image binaries are unchanged.
+The initial refresh is supplemented by the focused repairs described in `AUDIT.md`. Original restaurant image binaries remain available; optimized WebP versions are now served.
 
 ## Memorial image provenance
 
