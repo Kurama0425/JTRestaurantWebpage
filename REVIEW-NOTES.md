@@ -39,9 +39,7 @@ is approved and no longer carries a draft note. The remaining supplied asset is
 John's photograph. The project owner still needs to review the complete website
 refresh; the pull request remains a draft, with no merge or deployment authorized.
 
-Replace `.portrait-placeholder` inside `.memorial-portrait` in `index.html`
-with Travis's photograph when supplied. Preserve the person and use descriptive
-alt text. The reserved frame is not a public upload control.
+John's portrait has now been supplied by the project owner and added as `assets/img/john-turner.webp`. The supplied photograph is displayed without cropping or retouching; only orientation, web sizing and compression were applied. The original remains untouched. The approved tribute and caption are unchanged.
 
 Menu photos and the five blacked-out MP prices are resolved. Private dining
 invites guests to contact the restaurant for arrangements. Existing contact

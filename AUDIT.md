@@ -50,7 +50,7 @@ Approximately **61% smaller for these four images**. This is an asset-size measu
 4. **Canonical website address pending confirmation:** basic share metadata is added, but canonical URL, `og:url`, absolute social image, schema URL/menu and sitemap await the owner's preferred HTTPS hostname. Do not publish guessed or localhost URLs. Once supplied, add these and run Google's Rich Results Test and actual social-card previews. Search appearance is not guaranteed by structured data.
 5. **Dependencies:** Bootstrap 4.6.0 is end-of-life; jQuery 3.5.1 and other bundled template plugins are old. No reachable exploit was demonstrated in this static page. Plan a tested dependency maintenance pass; a framework migration would exceed a visual-preservation audit. Unused template files/assets remain in the repository; exclude review notes/tests and unused templates from the eventual deployment package.
 6. **Performance on hosting:** run Lighthouse/PageSpeed with live fonts/maps, mobile throttling and a cold cache; measure LCP, CLS, INP and caching on the approved staging build. Local screenshots and byte savings cannot establish production performance.
-7. John's real portrait is still awaited from Travis. The approved memorial wording and photo placeholder remain.
+7. John's real portrait was supplied by the project owner and added to the memorial. Final site approval from Travis is still pending.
 
 ## References
 
