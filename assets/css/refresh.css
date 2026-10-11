@@ -52,6 +52,8 @@ section { scroll-margin-top: 90px; }
 .menu .menu-ingredients { color: #c8c0b5; }
 .menu .menu-content a { min-width: 0; }
 .menu .menu-content span { flex-shrink: 0; white-space: nowrap; }
+.menu .menu-item-text-only .menu-content, .menu .menu-item-text-only .menu-ingredients { margin-left: 0; }
+.menu-policy { margin: 36px 0 0; padding-top: 20px; border-top: 1px solid #57452c; color: var(--jt-muted); font-size: 14px; }
 .events .event-item img { border-radius: 4px; }
 .reservation-note { max-width: 680px; margin-top: 16px; color: var(--jt-muted); }
 #footer .footer-info { padding: 0 15px; }

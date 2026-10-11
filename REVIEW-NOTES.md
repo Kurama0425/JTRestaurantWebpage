@@ -19,8 +19,11 @@ it has not been merged or deployed. No Bluehost or production work is included.
   and a reserved frame for Travis's forthcoming photograph of John. The desktop
   layout has three columns; smaller screens rearrange and stack for readability.
   No generated person, invented quote, or life dates were added.
-- Kept every existing menu price and blank price unchanged. Added a visible
-  notice that prices are pending confirmation from the forthcoming menu photos.
+- Replaced the menu using the two supplied menu photos, including all items,
+  descriptions, prices, sides, add-ons, beverages, and printed dining charges.
+  The project owner confirmed all five obscured scallop prices are MP. The old
+  pending-photo notice is replaced by an explanation of MP (Market Price).
+  See `MENU-REVIEW.md` for the complete transcription and interpretation notes.
 - Kept the black-and-gold palette, existing fonts, and existing restaurant imagery.
   Improved text spacing, contrast, mobile buttons, menu wrapping, and narrow-screen
   navigation spacing. Added a skip link, focus outlines, descriptive image text,
@@ -41,8 +44,9 @@ it has not been merged or deployed. No Bluehost or production work is included.
    Confirm the preferred spelling/styling of the former restaurant's name too.
 3. The August 2020 opening, John + Travis name, and guitar/singing details follow
    the project owner's supplied information. Have Travis approve the final history.
-4. Supply the front/back menu photos, reconcile all prices and missing prices,
-   and confirm menu availability. No new price has been estimated.
+4. Menu photos have now been supplied and transcribed. All five blacked-out
+   scallop prices were confirmed as MP by the project owner. No unreadable prices
+   remain, and no prices were estimated. Review `MENU-REVIEW.md` with the photos.
 5. Confirm private-room capacity, booking lead time, and deposit policy. The
    previous two-week rule has been replaced with a request to contact the team.
 6. Confirm the existing phone, email, address, hours, and 24-hour website
@@ -58,10 +62,11 @@ it has not been merged or deployed. No Bluehost or production work is included.
 - Both complete form blocks match main, including actions, methods, field names,
   validation attributes, and success/error messages. No PHP handler, form library,
   validation script, or `assets/js/main.js` changes.
-- All dollar-price strings match main in sequence, including existing dessert
-  prices. Menu item descriptions and blank price fields are retained.
+- All 53 menu entries match the photo transcription in `MENU-REVIEW.md`, including
+  eight MP entries (three printed Market Price entries and five owner-confirmed
+  blacked-out entries). Superseded menu prices and descriptions were replaced.
 - Local Chromium checks at 1440, 1024, 768, 390, and 320 pixels: no horizontal
-  page overflow; restaurant/menu images load; menu category filtering works;
+  page overflow; restaurant/menu images load; all eight menu category filters work;
   mobile navigation opens and reaches the memorial, then closes.
 - No JavaScript exceptions or missing local resources during those checks.
   Desktop and mobile screenshots were inspected. External Google Fonts and Maps
@@ -81,8 +86,8 @@ server cannot execute the PHP forms; do not interpret that as a production form
 failure. Review the complete diff against main before considering any release.
 
 Changes are limited to `index.html`, `assets/css/style.css`, the additive
-`assets/css/refresh.css`, the new memorial image, and this document. Existing
-restaurant image binaries are unchanged.
+`assets/css/refresh.css`, the new memorial image, `MENU-REVIEW.md`, and this
+document. Existing restaurant image binaries are unchanged.
 
 ## Memorial image provenance
 
@@ -102,9 +107,10 @@ Generation prompt:
 - Repeated the five-width browser checks, including the memorial's desktop
   left/text/right placement and mobile stacking. All passed. Reviewed desktop
   and phone memorial screenshots; the whole chair and guitar remain visible.
-- Rechecked complete form blocks, PHP and validation files, main JavaScript,
-  and all existing prices against main: unchanged. No live submissions sent.
-- Other refresh copy and styling are retained. The only follow-up website changes
-  are the supplied memorial, its layout, and the requested new symbolic image.
+- Rechecked complete form blocks, PHP and validation files, and main JavaScript
+  against main: unchanged. No live submissions sent. Prices were unchanged at
+  the memorial stage and subsequently replaced from the supplied menu photos.
+- Other refresh copy and styling are retained. Follow-ups add the supplied
+  memorial, its layout and symbolic image, and the photo-based menu update.
 - External font/map rendering and PHP mail delivery remain unverified locally.
   Main, Bluehost, and live production remain untouched.
