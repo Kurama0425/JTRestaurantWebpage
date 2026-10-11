@@ -88,3 +88,30 @@ a:hover { color: var(--jt-cream); }
 .skip-link { background: var(--jt-burgundy); color: var(--jt-cream); }
 :is(a,button,input,textarea,select):focus-visible { outline-color: var(--jt-cream) !important; }
 #menu .menu-pages a:focus-visible { outline-color: var(--jt-burgundy) !important; }
+
+/* Final balance: cream reading surfaces, espresso framing, burgundy accents. */
+#header, #header.header-scrolled, .mobile-nav,
+#footer, #footer .footer-top { background: var(--jt-espresso); }
+.why-us, #book-a-table, #contact, #menu.printed-menu {
+  background: var(--jt-cream);
+  color: var(--jt-espresso);
+}
+:is(.why-us, #book-a-table, #contact) .section-title :is(h2, p),
+#menu #menu-title, #menu .menu-intro-subtitle, #menu .eyebrow {
+  color: var(--jt-burgundy);
+}
+.why-us .box { background: var(--jt-espresso); }
+.why-us .box:hover { background: var(--jt-burgundy); }
+.why-us .box:hover :is(h3, p) { color: var(--jt-cream); }
+.why-us .box:hover span { color: var(--jt-brass); }
+.reservation-note, .php-email-form label,
+.contact .info h3, .contact .info p { color: var(--jt-espresso); }
+.php-email-form .validate { color: var(--jt-burgundy) !important; }
+.php-email-form button[type="submit"] {
+  background: var(--jt-burgundy) !important;
+  color: var(--jt-cream) !important;
+}
+.php-email-form button[type="submit"]:hover { background: var(--jt-brass) !important; }
+:is(#book-a-table, #contact) :is(a, button, input, textarea):focus-visible {
+  outline-color: var(--jt-burgundy) !important;
+}

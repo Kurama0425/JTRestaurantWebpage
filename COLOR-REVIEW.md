@@ -1,5 +1,11 @@
 # Burgundy palette experiment
 
+## Final balance adjustment
+
+The latest color-only adjustment gives the menu surround, Why Us, reservations and contact warm cream backgrounds with espresso text and burgundy headings. Navigation, mobile navigation, welcome cards and footer use espresso. Burgundy remains on the memorial feature, menu category bar and selected buttons, with subtle brass details. Layout, typography, all HTML/content, photographs and PHP/JavaScript files are unchanged by this adjustment.
+
+Final checks: zero automated accessibility violations at 1440/390/320px; no overflow at five widths; menu/mobile/carousel navigation and simulated form tests passed. All local link targets and resources exist, all live image elements load, and button hover contrast passed. External sites and actual hosted email delivery were not exercised. The pre-publication items in `AUDIT.md` still apply.
+
 Separate color-only commit after the audit baseline. The original audited palette is commit `d84fd0937d1c6e334f37dd7e0ed8b0620e50f0bc` on GitHub. Main and production remain unchanged.
 
 The only page change is loading `assets/css/palette-burgundy.css` after the existing stylesheets. Remove that one link, or revert the palette commit, to restore the audited original. No layout, typography, content, menu information, photographs, scripts or form behavior changed in this experiment.
