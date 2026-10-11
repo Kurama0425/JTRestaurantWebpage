@@ -5,16 +5,26 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>J and T's on the Main Restaurant</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>J+T's on the Main | Steaks &amp; Seafood in Chatham, VA</title>
+  <meta content="Steaks, seafood, and a warm welcome at J+T's on the Main in Chatham, Virginia. Explore our menu, private dining, and the story of John and Travis." name="description">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="J+T's on the Main">
+  <meta property="og:title" content="J+T's on the Main | Chatham, Virginia">
+  <meta property="og:description" content="Steaks, seafood, private dining, and a warm welcome on Main Street since August 2020.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="J+T's on the Main | Chatham, Virginia">
+  <meta name="twitter:description" content="Explore our menu, private dining, and the story of John and Travis.">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Restaurant","name":"J+T's on the Main","telephone":"+1-434-433-2182","servesCuisine":["Steak","Seafood"],"address":{"@type":"PostalAddress","streetAddress":"33 N Main Street","addressLocality":"Chatham","addressRegion":"VA","postalCode":"24531","addressCountry":"US"},"sameAs":["https://www.facebook.com/jtsonthemain/"]}
+  </script>
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- No favicon supplied in the repository. -->
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,18 +32,33 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/refresh.css" rel="stylesheet">
+  <link href="assets/css/menu.css" rel="stylesheet">
+  <link href="assets/css/accessibility.css" rel="stylesheet">
+  <link href="assets/css/palette-burgundy.css" rel="stylesheet">
 
+  <noscript><style>
+    .owl-carousel { display: block; }
+    .events .event-item { margin-bottom: 32px; }
+    @media (max-width: 991px) {
+      #header { position: static; }
+      #header .container { flex-wrap: wrap; }
+      #header .nav-menu { display: block !important; width: 100%; }
+      #header .nav-menu ul { display: flex; flex-wrap: wrap; }
+      #hero { padding-top: 64px; }
+    }
+  </style></noscript>
 </head>
 
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
   <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="d-flex align-items-center fixed-top">
+  <div role="region" aria-label="Restaurant phone and hours" id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex">
       <div class="contact-info mr-auto">
         <i class="icofont-phone"></i> +1 (434) 433 2182
@@ -46,15 +71,15 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo mr-auto"><a href="index.html">J+T's on the Main</a></h1>
+      <div class="logo mr-auto"><a href="index.html">J+T's on the Main</a></div>
 
-      <nav class="nav-menu d-none d-lg-block">
+      <nav class="nav-menu d-none d-lg-block" aria-label="Main navigation">
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#why-us">Why us</a></li>
+          <li><a href="#remembering-john">Remembering John</a></li>
           <li><a href="#menu">Menu</a></li>
-          <li><a href="#events">Events</a></li>
+          <li><a href="#events">Private Dining</a></li>
           <li><a href="#contact">Contact</a></li>
           <li class="book-a-table text-center"><a href="#book-a-table">Make A Reservation</a></li>
         </ul>
@@ -64,13 +89,14 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+  <main id="main" tabindex="-1">
+  <section aria-label="Welcome" id="hero" class="d-flex align-items-center">
     <div class="container position-relative text-center text-lg-left" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
         <div class="col-lg-8">
           <h1>Welcome to <span>J+T's on the Main</span></h1>
-          <h2>Serving up expertly cooked Steaks and Seafood for over a decade!</h2>
-          <p>Online ordering for take-out coming soon! Be sure to check back frequently for updates.</p>
+          <h2>Steaks, seafood, and a warm welcome in the heart of Chatham.</h2>
+          <p>On Main Street since August 2020. A place to gather, share a meal, and feel at home.</p>
 
           <div class="btns">
             <a href="#menu" class="btn-menu animated fadeInUp scrollto">Our Menu</a>
@@ -82,7 +108,7 @@
   </section>
   <!-- End Hero -->
 
-  <main id="main">
+
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
@@ -91,19 +117,18 @@
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
             <div class="about-img">
-              <img src="/Front of Jts.jpg" alt="a Picture of the front of the restauant">
+              <img src="assets/img/storefront.webp" alt="The J+T's on the Main name on the restaurant's front window" width="960" height="1280" loading="lazy">
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>J&T's on the Main has joined Chatham as one of the few restaurants in the area offering something different from all the rest.</h3>
-            <p class="font-italic">
-              We strive to bring you the best hand-cut grilled steaks and fresh seafood all from the heart of Chatham located next to the Pittsylvania county courthouse on main street.
-            </p>
-            <ul>
-
-            <p>
-              First Established in 2011 as J.T.'s at the Lavalette, Chef/Owner John Turner and Co-owner/Sous Chef Travis Stinnett have been grilling up thick-cut steaks and fresh seafood at the original location in Gretna, VA.<br> In late 2020 they moved to their new and current location on Main street Chatham and ever since have been pushing the same quality of food since, only the best!
-            </p>
+            <div class="section-title">
+              <h2>Our Story</h2>
+              <p>John + Travis. A place on Main.</p>
+            </div>
+            <p class="story-lead">J+T's on the Main opened in Chatham, Virginia, in August 2020, bringing John and Travis's love of good food to Main Street.</p>
+            <p>Our story has roots in JT's at the Lavalette in Gretna, where John Turner cooked before bringing the restaurant to Chatham. Here, beside the Pittsylvania County courthouse, steaks, seafood, and time around the table remain at the heart of the experience.</p>
+            <p>The J and T stand for John and Travis. Travis carries the restaurant forward, and the name stays as a tribute to the two people behind it.</p>
+            <a class="story-link scrollto" href="#remembering-john">Remembering John Turner <span aria-hidden="true">&rarr;</span></a>
           </div>
         </div>
 
@@ -124,24 +149,24 @@
           <div class="col-lg-4">
             <div class="box" data-aos="zoom-in" data-aos-delay="100">
               <span>01</span>
-              <h4>Excellent Service<h4>
-              <p>We strive to give you the most attentative service that will make you feel at home, with knowledgable servers to pair your food with the best wine and beer pairings.</p>
+              <h3>A Warm Welcome</h3>
+              <p>Settle in and let us take care of you. Ask our team about the menu or a wine or beer to enjoy with your meal.</p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="200">
               <span>02</span>
-              <h4>Food Quality</h4>
-              <p>Every plate that leaves the kitchen is quality checked to ensure that it is correct. We strive to provide you with nothing but the finest ingredients we have to offer.</p>
+              <h3>Food Quality</h3>
+              <p>From grilled steaks to seafood favorites, our menu is made for a satisfying evening around the table.</p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="300">
               <span>03</span>
-              <h4>Atmosphere</h4>
-              <p>With many rooms on offer including a full service bar, we have the space for small private events with historic decorations and soft lighting that really sets the tone for a nice grilled steak dinner. </p>
+              <h3>Atmosphere</h3>
+              <p>Historic surroundings, soft lighting, and a full-service bar set the scene for dinner with friends, a special occasion, or a quiet night out.</p>
             </div>
           </div>
 
@@ -150,455 +175,337 @@
       </div>
     </section><!-- End Why Us Section -->
 
-    <!-- ======= Menu Section ======= -->
-    <section id="menu" class="menu section-bg">
+    <!-- Memorial supplied by the project owner and approved by Travis. -->
+    <section id="remembering-john" class="memorial section-bg" aria-labelledby="john-title">
       <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Menu</h2>
-          <p>Check Out Our Tasty Menu</p>
+        <div class="memorial-card">
+          <header class="memorial-heading">
+            <p class="eyebrow">Always part of our story</p>
+            <h2 id="john-title">In Loving Memory of John Turner</h2>
+            <p class="memorial-subtitle"><em>Chef. Musician. Friend. The heart behind J+T's on the Main.</em></p>
+          </header>
+          <figure class="memorial-chair">
+            <img src="assets/img/memorial-chair-guitar.jpg" alt="An empty wooden chair beside an acoustic guitar, a symbolic tribute to John" width="800" height="1200" loading="lazy">
+            <figcaption>A quiet tribute to a life of music.</figcaption>
+          </figure>
+          <div class="memorial-copy">
+            <p>For more than four decades, John Turner dedicated his life to the art of cooking, bringing people together through good food, laughter, and genuine hospitality.</p>
+            <p>John's passion for the restaurant business led him to establish JT's at the Lavalette in Gretna, Virginia, where he spent more than a decade building a place that became a part of the community. In 2020, he brought that passion to Chatham, Virginia, opening J+T's on the Main alongside Travis and beginning a new chapter in a lifetime devoted to food and hospitality.</p>
+            <p>But there was much more to John than the kitchen. He was also a musician who loved playing guitar and singing, sharing his creativity and personality through music just as he did through his cooking.</p>
+            <p>The name J+T's represents John and Travis, a lasting reminder of the people behind the restaurant. Today, as Travis carries the business forward, John's influence remains woven into the very identity of the place they built together.</p>
+            <p>John leaves behind more than a restaurant. He leaves a legacy of hard work, passion, music, and memories shared with the countless people who crossed his path.</p>
+            <p>Though he may no longer be here to welcome guests through the doors, his spirit lives on in the restaurant, the people he inspired, and the traditions he helped create.</p>
+            <p class="memorial-closing"><strong>Rest in Peace, John. Your legacy lives on.</strong></p>
+          </div>
+          <figure class="memorial-portrait">
+            <img src="assets/img/john-turner.webp" alt="John Turner standing in the restaurant kitchen" width="900" height="1200" loading="lazy">
+            <figcaption>Remembered with love.</figcaption>
+          </figure>
         </div>
+      </div>
+    </section>
 
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="menu-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-starters">Starters</li>
-              <li data-filter=".filter-salads">Soup/Salad</li>
-              <li data-filter=".filter-specialty">Entrees</li>
-              <li data-filter=".filter-pasta">Pasta</li>
-              <li data-filter=".filter-extras">Extras</li>
-              <li data-filter=".filter-kids">Kids</li>
-              <li data-filter=".filter-desserts">Desserts</li>
-            </ul>
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu section-bg printed-menu" aria-labelledby="menu-title">
+      <div class="container">
+        <header class="menu-intro">
+          <p class="eyebrow">J+T's on the Main</p>
+          <h2 id="menu-title">At Our Table</h2>
+          <p class="menu-intro-subtitle">The Menu</p>
+          <div class="menu-ornament" aria-hidden="true"><span>✦</span></div>
+        </header>
+        <nav class="menu-jump" aria-label="Menu categories">
+          <div class="menu-jump-links">
+            <a href="#menu-starters">Appetizers</a>
+            <a href="#menu-salads">Soup &amp; Salad</a>
+            <a href="#menu-specialty">Entrées</a>
+            <a href="#menu-pasta">Pasta</a>
+            <a href="#menu-extras">Sides &amp; Add-Ons</a>
+            <a href="#menu-kids">Kids’ Menu</a>
+            <a href="#menu-desserts">Desserts</a>
+            <a href="#menu-beverages">Beverages</a>
           </div>
+          <div class="menu-jump-mobile">
+            <label for="menu-category">Explore the menu</label>
+            <select id="menu-category">
+              <option value="">Choose a category</option>
+              <option value="menu-starters">Appetizers</option>
+              <option value="menu-salads">Soup &amp; Salad</option>
+              <option value="menu-specialty">Entrées</option>
+              <option value="menu-pasta">Pasta</option>
+              <option value="menu-extras">Sides &amp; Add-Ons</option>
+              <option value="menu-kids">Kids’ Menu</option>
+              <option value="menu-desserts">Desserts</option>
+              <option value="menu-beverages">Beverages</option>
+            </select>
+          </div>
+        </nav>
+        <div class="menu-pages">
+          <div id="menu-starters" class="menu-chapter" role="region" aria-labelledby="heading-starters">
+            <div class="menu-chapter-heading"><span aria-hidden="true">01</span><h3 id="heading-starters">Appetizers</h3></div>
+            <div class="dish-grid">
+              <article class="dish" data-category="starters">
+                <div class="dish-heading"><h4>Grilled Scallops</h4><span class="dish-price market-price">Market Price</span></div>
+                <p class="dish-description">Dusted with Chef John's special seasoning.</p>
+              </article>
+              <article class="dish" data-category="starters">
+                <div class="dish-heading"><h4>Grilled Shrimp</h4><span class="dish-price">$9.00</span></div>
+                <p class="dish-description">Dusted with Chef John's special seasoning.</p>
+              </article>
+              <article class="dish" data-category="starters">
+                <div class="dish-heading"><h4>Cajun Crawfish</h4><span class="dish-price">$13.50</span></div>
+                <p class="dish-description">Crawfish tails simmered in our Cajun sauce.</p>
+              </article>
+              <article class="dish" data-category="starters">
+                <div class="dish-heading"><h4>Blackened Scallops</h4><span class="dish-price market-price">Market Price</span></div>
+                <p class="dish-description">With tomato cream.</p>
+              </article>
+              <article class="dish" data-category="starters">
+                <div class="dish-heading"><h4>3 Cheese Oysters</h4><span class="dish-price">$13.50</span></div>
+                <p class="dish-description">Six oysters topped with bacon, 3 cheese blend and white wine.</p>
+              </article>
+              <article class="dish" data-category="starters">
+                <div class="dish-heading"><h4>Mozzarella Sticks</h4><span class="dish-price">$7.00</span></div>
+                <p class="dish-description">With marinara sauce.</p>
+              </article>
+              <article class="dish" data-category="starters">
+                <div class="dish-heading"><h4>Onion Rings</h4><span class="dish-price">$7.00</span></div>
+
+              </article>
+              <article class="dish" data-category="starters">
+                <div class="dish-heading"><h4>Sauteed Garlic Mushrooms</h4><span class="dish-price">$7.00</span></div>
+
+              </article>
+              <article class="dish" data-category="starters">
+                <div class="dish-heading"><h4>Crab Stuffed Mushrooms</h4><span class="dish-price">$11.00</span></div>
+
+              </article>
+              <article class="dish" data-category="starters">
+                <div class="dish-heading"><h4>Fried Pickles</h4><span class="dish-price">$7.00</span></div>
+
+              </article>
+            </div>
+          </div>
+
+          <div id="menu-salads" class="menu-chapter" role="region" aria-labelledby="heading-salads">
+            <div class="menu-chapter-heading"><span aria-hidden="true">02</span><h3 id="heading-salads">Soup &amp; Salad</h3></div>
+            <div class="dish-grid">
+              <article class="dish" data-category="salads">
+                <div class="dish-heading"><h4>Soup of the Day (cup)</h4><span class="dish-price">$4.00</span></div>
+
+              </article>
+              <article class="dish" data-category="salads">
+                <div class="dish-heading"><h4>House Salad</h4><span class="dish-price">$5.00</span></div>
+                <p class="dish-description">With choice of dressing. Mixed greens topped with shredded carrots and cheddar cheese, fresh cucumbers, red onions, tomatoes and croutons. Dressings: Ranch, Bleu Cheese, 1000 Island, Italian, Honey Mustard, French, Balsamic Vinaigrette.</p>
+              </article>
+              <article class="dish" data-category="salads">
+                <div class="dish-heading"><h4>Side Caesar</h4><span class="dish-price">$6.00</span></div>
+
+              </article>
+              <article class="dish" data-category="salads">
+                <div class="dish-heading"><h4>Chicken Caesar Salad</h4><span class="dish-price">$16.00</span></div>
+
+              </article>
+              <article class="dish" data-category="salads">
+                <div class="dish-heading"><h4>Grilled Chicken Salad</h4><span class="dish-price">$14.00</span></div>
+
+              </article>
+            </div>
+          </div>
+
+          <div id="menu-specialty" class="menu-chapter" role="region" aria-labelledby="heading-specialty">
+            <div class="menu-chapter-heading"><span aria-hidden="true">03</span><h3 id="heading-specialty">Entrées</h3></div>
+            <div class="dish-grid">
+              <article class="dish" data-category="specialty">
+                <div class="dish-heading"><h4>Filet (6 oz / 8 oz)</h4><span class="dish-price market-price">Market Price</span></div>
+                <p class="dish-description">Our leanest steak hand-cut daily; seasoned and grilled to perfection.</p>
+              </article>
+              <article class="dish" data-category="specialty">
+                <div class="dish-heading"><h4>12 oz Ribeye</h4><span class="dish-price market-price">Market Price</span></div>
+                <p class="dish-description">Marbled beef steak; exquisitely seasoned and grilled.</p>
+              </article>
+              <article class="dish" data-category="specialty">
+                <div class="dish-heading"><h4>Boneless Pork Loin</h4><span class="dish-price">$20.00</span></div>
+                <p class="dish-description">Two 5 oz boneless pork chops; seasoned and grilled.</p>
+              </article>
+              <article class="dish" data-category="specialty">
+                <div class="dish-heading"><h4>Country-Style Ribs</h4><span class="dish-price">$20.00</span></div>
+                <p class="dish-description">Boneless pork cooked slow and low; with barbeque sauce.</p>
+              </article>
+              <article class="dish" data-category="specialty">
+                <div class="dish-heading"><h4>Catfish</h4><span class="dish-price">$17.50</span></div>
+                <p class="dish-description">Comes fried, blackened or grilled.</p>
+              </article>
+              <article class="dish" data-category="specialty">
+                <div class="dish-heading"><h4>Grilled Salmon</h4><span class="dish-price">$25.00</span></div>
+                <p class="dish-description">Served with a creamy dill sauce.</p>
+              </article>
+              <article class="dish" data-category="specialty">
+                <div class="dish-heading"><h4>Fish of the Day</h4><span class="dish-price market-price">Market Price</span></div>
+
+              </article>
+              <article class="dish" data-category="specialty">
+                <div class="dish-heading"><h4>Tilapia Morney</h4><span class="dish-price">$22.00</span></div>
+                <p class="dish-description">Grilled tilapia topped with a creamy morney sauce with crabmeat.</p>
+              </article>
+              <article class="dish" data-category="specialty">
+                <div class="dish-heading"><h4>Crab Stuffed Flounder</h4><span class="dish-price">$29.00</span></div>
+                <p class="dish-description">Baked with white wine, lemon and butter.</p>
+              </article>
+              <article class="dish" data-category="specialty">
+                <div class="dish-heading"><h4>Stuffed Portabella Mushroom</h4><span class="dish-price">$29.00</span></div>
+                <p class="dish-description">Jumbo portabella stuffed with crabmeat and crawfish; topped with crab morney sauce and Monterey Jack cheese.</p>
+              </article>
+              <article class="dish" data-category="specialty">
+                <div class="dish-heading"><h4>Crab Stuffed Shrimp</h4><span class="dish-price">$29.00</span></div>
+                <p class="dish-description">Jumbo shrimp stuffed with crabmeat; topped with crab morney sauce and Monterey Jack cheese.</p>
+              </article>
+              <article class="dish" data-category="specialty">
+                <div class="dish-heading"><h4>Grilled Scallops</h4><span class="dish-price market-price">Market Price</span></div>
+
+              </article>
+              <article class="dish" data-category="specialty">
+                <div class="dish-heading"><h4>Grilled Shrimp</h4><span class="dish-price">$20.00</span></div>
+
+              </article>
+              <article class="dish" data-category="specialty">
+                <div class="dish-heading"><h4>Grilled Shrimp and Scallops</h4><span class="dish-price market-price">Market Price</span></div>
+
+              </article>
+              <article class="dish" data-category="specialty">
+                <div class="dish-heading"><h4>Chesapeake Crab Cakes</h4><span class="dish-price">$29.50</span></div>
+
+              </article>
+              <article class="dish" data-category="specialty">
+                <div class="dish-heading"><h4>Grilled Chicken Breast</h4><span class="dish-price">$16.00</span></div>
+
+              </article>
+              <article class="dish" data-category="specialty">
+                <div class="dish-heading"><h4>3 Cheese Asiago Chicken Breast</h4><span class="dish-price">$18.50</span></div>
+                <p class="dish-description">Grilled chicken stuffed with our 3 cheese Asiago blend.</p>
+              </article>
+              <article class="dish" data-category="specialty">
+                <div class="dish-heading"><h4>BBQ Bacon Chicken Breast</h4><span class="dish-price">$18.50</span></div>
+                <p class="dish-description">Grilled chicken breast topped with BBQ, bacon and cheese.</p>
+              </article>
+            </div>
+          </div>
+
+          <div id="menu-pasta" class="menu-chapter" role="region" aria-labelledby="heading-pasta">
+            <div class="menu-chapter-heading"><span aria-hidden="true">04</span><h3 id="heading-pasta">Pasta</h3></div>
+            <div class="dish-grid">
+              <article class="dish" data-category="pasta">
+                <div class="dish-heading"><h4>Chicken Sorrento</h4><span class="dish-price">$23.00</span></div>
+                <p class="dish-description">With mushrooms, marinara sauce, melted mozzarella and Parmesan cheeses; served with Angel Hair pasta.</p>
+              </article>
+              <article class="dish" data-category="pasta">
+                <div class="dish-heading"><h4>Angel Hair Pasta</h4><span class="dish-price">$13.50</span></div>
+                <p class="dish-description">With marinara.</p>
+              </article>
+              <article class="dish" data-category="pasta">
+                <div class="dish-heading"><h4>Fettuccine Alfredo</h4><span class="dish-price">$17.00</span></div>
+
+              </article>
+              <article class="dish" data-category="pasta">
+                <div class="dish-heading"><h4>Chicken &amp; Shrimp Asiago Pasta</h4><span class="dish-price">$23.50</span></div>
+                <p class="dish-description">Sauteed chicken and shrimp blended with our tomato cream sauce with Asiago cheese.</p>
+              </article>
+            </div>
+          </div>
+
+          <div id="menu-extras" class="menu-chapter" role="region" aria-labelledby="heading-extras">
+            <div class="menu-chapter-heading"><span aria-hidden="true">05</span><h3 id="heading-extras">Sides &amp; Add-Ons</h3></div>
+            <div class="dish-grid">
+              <article class="dish" data-category="extras">
+                <div class="dish-heading"><h4>Sides</h4></div>
+                <p class="dish-description">Baked Potato · Baked Sweet Potato · Green Beans · Steamed Broccoli (+$1) · Garlic Mashed Potatoes · French Fries · Sauteed Vegetable Medley (+$2) · Onion Rings (+$3) · Asparagus (+$3) · Garlic Mushrooms (+$3).</p>
+              </article>
+              <article class="dish" data-category="extras">
+                <div class="dish-heading"><h4>Grilled Shrimp (add-on)</h4><span class="dish-price">$8.00</span></div>
+
+              </article>
+              <article class="dish" data-category="extras">
+                <div class="dish-heading"><h4>Grilled Scallops (add-on)</h4><span class="dish-price market-price">Market Price</span></div>
+
+              </article>
+              <article class="dish" data-category="extras">
+                <div class="dish-heading"><h4>Grilled or Blackened Chicken Breast (add-on)</h4><span class="dish-price">$9.50</span></div>
+
+              </article>
+              <article class="dish" data-category="extras">
+                <div class="dish-heading"><h4>Crab Cake (add-on)</h4><span class="dish-price">$15.00</span></div>
+
+              </article>
+              <article class="dish" data-category="extras">
+                <div class="dish-heading"><h4>Garlic Mushrooms (add-on)</h4><span class="dish-price">$3.00</span></div>
+
+              </article>
+              <article class="dish" data-category="extras">
+                <div class="dish-heading"><h4>Oscar (add-on)</h4><span class="dish-price">$16.00</span></div>
+                <p class="dish-description">Crabmeat, Asparagus and Hollandaise.</p>
+              </article>
+            </div>
+          </div>
+
+          <div id="menu-kids" class="menu-chapter" role="region" aria-labelledby="heading-kids">
+            <div class="menu-chapter-heading"><span aria-hidden="true">06</span><h3 id="heading-kids">Kids’ Menu</h3></div>
+            <div class="dish-grid">
+              <article class="dish" data-category="kids">
+                <div class="dish-heading"><h4>Angel Hair Pasta (kids)</h4><span class="dish-price">$6.00</span></div>
+                <p class="dish-description">With marinara.</p>
+              </article>
+              <article class="dish" data-category="kids">
+                <div class="dish-heading"><h4>Fettuccine Alfredo (kids)</h4><span class="dish-price">$8.00</span></div>
+
+              </article>
+              <article class="dish" data-category="kids">
+                <div class="dish-heading"><h4>Chicken Tenders (kids)</h4><span class="dish-price">$7.00</span></div>
+                <p class="dish-description">With one side.</p>
+              </article>
+            </div>
+          </div>
+
+          <div id="menu-desserts" class="menu-chapter" role="region" aria-labelledby="heading-desserts">
+            <div class="menu-chapter-heading"><span aria-hidden="true">07</span><h3 id="heading-desserts">Desserts</h3></div>
+            <div class="dish-grid">
+              <article class="dish" data-category="desserts">
+                <div class="dish-heading"><h4>Cheesecake</h4><span class="dish-price">$8.00</span></div>
+                <p class="dish-description">With caramel and/or chocolate sauce.</p>
+              </article>
+              <article class="dish" data-category="desserts">
+                <div class="dish-heading"><h4>Key Lime Pie</h4><span class="dish-price">$6.00</span></div>
+
+              </article>
+              <article class="dish" data-category="desserts">
+                <div class="dish-heading"><h4>French Silk Pie</h4><span class="dish-price">$6.00</span></div>
+
+              </article>
+              <article class="dish" data-category="desserts">
+                <div class="dish-heading"><h4>Chocolate Chip</h4><span class="dish-price">$7.50</span></div>
+
+              </article>
+              <article class="dish" data-category="desserts">
+                <div class="dish-heading"><h4>Milky Way</h4><span class="dish-price">$7.50</span></div>
+
+              </article>
+            </div>
+          </div>
+
+          <div id="menu-beverages" class="menu-chapter" role="region" aria-labelledby="heading-beverages">
+            <div class="menu-chapter-heading"><span aria-hidden="true">08</span><h3 id="heading-beverages">Beverages</h3></div>
+            <div class="dish-grid">
+              <article class="dish" data-category="beverages">
+                <div class="dish-heading"><h4>Beverages</h4><span class="dish-price">$2.50</span></div>
+                <p class="dish-description">Pepsi, Diet Pepsi, Dr. Pepper, Mountain Dew, Sierra Mist, Tea, Coffee.</p>
+              </article>
+            </div>
+          </div>
+          <footer class="menu-fine-print">
+            <p>Market Price items vary with the market. Please ask your server for today’s price.</p>
+            <p>20% gratuity will be added to parties of 6 or more. Shared plate charge: $5.</p>
+            <a href="#menu-title">Back to menu categories <span aria-hidden="true">↑</span></a>
+          </footer>
         </div>
-
-        <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-6 menu-item filter-starters">
-            <img src="/starters-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Cajun Crawfish</a><span>$10.00</span>
-            </div>
-            <div class="menu-ingredients">
-             Traditional spicy Cajun Crawfish served with bread.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-starters">
-            <img src="/starters-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Grilled Scallops</a><span>$9.00</span>
-            </div>
-            <div class="menu-ingredients">
-              One skewer of fresh sea scallops grilled to perfection and topped with chef John's cajun seasoning.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-starters">
-            <img src="/starters-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Grilled Shrimp</a><span>$8.00</span>
-            </div>
-            <div class="menu-ingredients">
-              One skewer of jumbo shrimp grilled to perfection and topped with chef John's cajun seasoning.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-starters">
-            <img src="/starters-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Blackened Scallops</a><span>$10.00</span>
-            </div>
-            <div class="menu-ingredients">
-              One skewer of fresh sea scallops grilled to perfection then finished with a tomato cream sauce and served with broccoli.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-starters">
-            <img src="/starters-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Three Cheese Oysters</a><span>$11.00</span>
-            </div>
-            <div class="menu-ingredients">
-             Six Oysters topped with bacon, our three cheese blend, and white wine then baked in the oven to perfection finally dusted with chef John's cajun seasoning.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-starters">
-            <img src="/starters-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Mozzarella Sticks</a><span>$6.00</span>
-            </div>
-            <div class="menu-ingredients">
-             Five deep-fried mozzarella sticks served with chef John's house marinara sauce.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-starters">
-            <img src="/starters-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Onion Rings</a><span>$6.00</span>
-            </div>
-            <div class="menu-ingredients">
-             Deep fried onion rings dusted with chef John's cajun seasoning.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-starters">
-            <img src="/starters-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Sauteed Garlic Mushrooms</a><span>$7.00</span>
-            </div>
-            <div class="menu-ingredients">
-             Sliced mushrooms sauteed with garlic and finished with white wine.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-starters">
-            <img src="/starters-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Crab Stuffed Mushrooms</a><span>$10.00</span>
-            </div>
-            <div class="menu-ingredients">
-             Four mushrooms stuffed with our house crab meat, and topped with monterey jack cheese then finished in the oven until golden brown.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-starters">
-            <img src="/starters-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Fried Pickles</a><span>$6.00</span>
-            </div>
-            <div class="menu-ingredients">
-             Hand breaded and deep fried to golden brown then dusted with chef John's cajun seasoning, served with a sriracha aoili.
-            </div>
-          </div>
-
-
-          <div class="col-lg-6 menu-item filter-salads">
-            <img src="/soup-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Soup of the Day (cup)</a><span>$4.00</span>
-            </div>
-            <div class="menu-ingredients">
-              Our house soup of the day, please ask your server if you have any questions about possible food allergens.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-salads">
-            <img src="/salad-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">House/Caesar Salad</a><span>$5/6</span>
-            </div>
-            <div class="menu-ingredients">
-             House Salad with one choice of dressing (Ranch, Bleu Cheese, French, Thousand Island, Italian, Honey Mustard, Balsamic Vinaigrette). Also available as a traditional Caesar salad ($1 upcharge).
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-salads">
-            <img src="/salad-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Chicken House/Caesar Salad</a><span>$11.00</span>
-            </div>
-            <div class="menu-ingredients">
-             Entree portion of our house or caesar Salad served with a chicken breast grilled to perfection with chef John's house grill seasoning.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="/entree-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Crab-Stuffed Flounder</a><span>$24.00</span>
-            </div>
-            <div class="menu-ingredients">
-             A whole Flounder stuffed with our famous crab meat and topped with chef John's cajun seasoning then baked in the oven to perfection.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="/entree-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">6oz/8oz Filet Mignon</a><span>$MP</span>
-            </div>
-            <div class="menu-ingredients">
-              A 6oz or 8oz hand-cut beef tenderloin grilled to perfection with chef John's house grill seasoning. *We apologize, due to the rising market cost of beef we have to adjust our pricing on some items accordingly.*
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="/entree-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">12oz Grilled Ribeye</a><span>$MP</span>
-            </div>
-            <div class="menu-ingredients">
-              12oz Center cut ribeye grilled to perfection with chef John's house grill seasoning. *We apologize, due to the rising market cost of beef we have to adjust our pricing on some items accordingly.*
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="/entree-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Crab Cakes</a><span>$24.00</span>
-            </div>
-            <div class="menu-ingredients">
-              Two fresh jumbo lump crab cakes made from our house crab meat with no fillers.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="/entree-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Crab-Stuffed Shrimp</a><span>$24.00</span>
-            </div>
-            <div class="menu-ingredients">
-              Four shrimp butterflied then stuffed with our house crab meat and topped with monterey jack cheese, baked in the oven and then finished with our creamy mourney sauce.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="/entree-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Catfish</a><span>$15.00</span>
-            </div>
-            <div class="menu-ingredients">
-              Order your catfish hand breaded and fried, grilled, or covered with chef John's cajun seasoning and blackened on the grill.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="/entree-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Grilled Shrimp</a><span>$18.00</span>
-            </div>
-            <div class="menu-ingredients">
-              Two skewers of jumbo shrimp grilled to perfection and topped with chef John's cajun Seasoning.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="/entree-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Grilled Scallops</a><span>$21.00</span>
-            </div>
-            <div class="menu-ingredients">
-              Two skewers of fresh sea scallops grilled to perfection and topped with chef John's cajun seasoning.
-            </div>
-          </div>
-
-            <div class="col-lg-6 menu-item filter-specialty">
-              <img src="/entree-icon.jpg" class="menu-img" alt="">
-              <div class="menu-content">
-                <a href="#">Grilled Shrimp and Scallops</a><span>$20.00</span>
-              </div>
-              <div class="menu-ingredients">
-                One skewer of jumbo shrimp and one skewer of fresh sea scallops grilled to perfection and topped with chef John's cajun seasoning.
-              </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="/entree-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Grilled Salmon</a><span>$19.50</span>
-            </div>
-            <div class="menu-ingredients">
-              Fresh Wild-Caught Atlantic Salmon hand-cut and grilled to your liking, can also be ordered covered with Chef John's cajun seasoning and blackened on the grill.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="/entree-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Grilled Mahi-Mahi</a><span>$MP</span>
-            </div>
-            <div class="menu-ingredients">
-              Mahi-Mahi grilled to perfection and topped with chef Johns cajun Seasoning(may be ordered blackened also).
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="/entree-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Grilled Ahi Tuna</a><span>$MP</span>
-            </div>
-            <div class="menu-ingredients">
-              Ahi-Tuna grilled to your liking and served with a side of wasabi and soy sauce,(may be ordered blackened also).
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="/entree-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Boneless Pork Loin</a><span>$16.00</span>
-            </div>
-            <div class="menu-ingredients">
-              Two 5oz boneless pork chops seasoned with chef John's house grill seasoning and grilled to perfection.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="/entree-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Country-Style Ribs</a><span>$16.00</span>
-            </div>
-            <div class="menu-ingredients">
-              Boneless pork cooked low and slow, finished on the grill and topped with chef John's homemade BBQ Sauce.
-          </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="/entree-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Tilapia Mourney</a><span>$17.00</span>
-            </div>
-            <div class="menu-ingredients">
-              Grilled Tilapia finished with a creamy mourney sauce and dusted with chef John's cajun seasoning.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="/entree-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Stuffed Portabella Mushroom</a><span>$25.00</span>
-            </div>
-            <div class="menu-ingredients">
-              Jumbo portabella mushroom stuffed with our house crab meat and crawfish, topped with monterey jack cheese and baked in the oven, finally topped with a creamy mourney sauce.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="/entree-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Grilled Chicken Breast</a><span>$13.00</span>
-            </div>
-            <div class="menu-ingredients">
-              Chicken breast seasoned with chef John's house grill seasoning and grilled to perfection.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="/entree-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">3 Cheese Asiago Chicken Breast</a><span>$15.00</span>
-            </div>
-            <div class="menu-ingredients">
-              Chicken breast stuffed with our three cheese blend and finished in the oven.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-specialty">
-            <img src="/entree-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">BBQ Bacon Chicken Breast</a><span>$15.00</span>
-            </div>
-            <div class="menu-ingredients">
-              Chicken breast stuffed with bacon and topped with chef john's BBQ sauce, monterey jack cheese and finished in the oven.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-pasta">
-            <img src="/pasta-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Chicken Sorrento</a><span>$18.00</span>
-            </div>
-            <div class="menu-ingredients">
-              Butterflied chicken breast filled with mushrooms, chef John's house marinara, and mozzarella and parmesan cheeses then finished in the oven until golden brown, served on top of a bed of angel hair pasta.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-pasta">
-            <img src="/pasta-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Angel Hair Pasta</a><span>$10.00</span>
-            </div>
-            <div class="menu-ingredients">
-              Chef John's house marinara served on top of a bed of angel hair pasta and topped with mozzarella cheese.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-pasta">
-            <img src="/pasta-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Fettucini Alfredo</a><span>$13.00</span>
-            </div>
-            <div class="menu-ingredients">
-              Traditional creamy alfredo sauce tossed with fettucini pasta (chicken or shrimp may be added for an additional charge).
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-pasta">
-            <img src="/pasta-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Chicken and Shrimp Asiago Pasta</a><span>$18.00</span>
-            </div>
-            <div class="menu-ingredients">
-              Chicken and jumbo shrimp sauteed then combined with a tomato cream sauce with asiago cheese, served with fettucini noodles.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-extras">
-            <img src="/kids-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Sides</a><span></span>
-            </div>
-            <div class="menu-ingredients">
-              Baked Potato - Sweet Potato - Green Beans - Steamed Broccoli - Garlic Mashed Potatoes - French Fries - Sauteed Vegetable Medley (+$1) - Onion Rings (+$1) - Asparagus (+$2) - Garlic Mushrooms (+$2).
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-extras">
-            <img src="/kids-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Add-Ons</a><span></span>
-            </div>
-            <div class="menu-ingredients">
-              Grilled Shrimp ($7)  - Grilled Scallops ($9) - Grilled or Blackened Chicken Breast ($8) - Crab Cake ($10) - Garlic Mushrooms ($2) - Oscar (Crabmeat,Asparagus,Hollandaise)($14).
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-kids">
-            <img src="/kids-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Kids Pasta</a><span>$6.00</span>
-            </div>
-            <div class="menu-ingredients">
-              Kids Portion of angel hair pasta with chef John's house marinara.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-kids">
-            <img src="/kids-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Kids Fettucini Alfredo</a><span>$7.00</span>
-            </div>
-            <div class="menu-ingredients">
-              Kids Portion of traditional fettucini alfredo.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-kids">
-            <img src="/kids-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Kids Chicken Tenders</a><span>$7.00</span>
-            </div>
-            <div class="menu-ingredients">
-              Three chicken tenders served with choice of one side.
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-desserts">
-            <img src="/dessert-icon.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Desserts</a><span></span>
-            </div>
-            <div class="menu-ingredients">
-              New-York Style Cheesecake($6) - Key Lime Pie ($5) - French Silk Pie($5) - Chocolate Pecan Dessert($5).
-            </div>
-          </div>
-
-        </div>
-
       </div>
     </section><!-- End Menu Section -->
 
@@ -607,15 +514,15 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Events & Bar</h2>
-          <p>Organize Your Events in our Private Room</p>
+          <h2>Private Dining &amp; Bar</h2>
+          <p>Gather for Something Special</p>
         </div>
 
         <div class="owl-carousel events-carousel" data-aos="fade-up" data-aos-delay="100">
 
           <div class="row event-item">
             <div class="col-lg-6">
-              <img src="/jt-private-room-size.jpg" class="img-fluid" alt="">
+              <img src="assets/img/private-dining.webp" width="1100" height="825" class="img-fluid" alt="Tables set for guests in the private dining room" loading="lazy">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 content">
               <h3>Private Parties</h3>
@@ -623,21 +530,21 @@
                 <p><span></span></p>
               </div>
               <p class="font-italic">
-               With our private room you can have a wonderful celebration with friends and family (limit 20 people due to covid restrictions).
+               Bring friends and family together in our private dining room for a birthday, an anniversary, or an evening worth celebrating.
               </p>
               <p>
-                Room must be booked atleast 2 weeks in advance with deposit to be taken at time of booking. Please refer to the contact section to email or call us to inquire about private events.
+                Contact us to discuss your date, group size, and dining plans. Our team can confirm availability, room capacity, advance notice, and any deposit requirements.
               </p>
             </div>
           </div>
 
           <div class="row event-item">
             <div class="col-lg-6">
-              <img src="/jt-bar-pic-wide.jpg" class="img-fluid" alt="">
+              <img src="assets/img/bar.webp" width="1100" height="508" class="img-fluid" alt="The bar at J+T's on the Main" loading="lazy">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 content">
               <h3>Fully Stocked Bar</h3>
-            <p class=>
+            <p>
                Please contact us for a full list of our available wines, draught beer, and specialty drinks.
               </p>
             </div>
@@ -674,46 +581,54 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>*Reservations must be made atleast 24 hours in advance if using the website.*</h2>
-          <p>Make A Reservation</p>
+          <h2>Reservations</h2>
+          <p>Join Us for Dinner</p>
+          <div class="reservation-note">Please submit website reservation requests at least 24 hours in advance. Your reservation is confirmed when our team calls or emails you back.</div>
 
         </div>
 
-        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+        <form action="forms/book-a-table.php" method="post" aria-label="Table reservation" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
           <div class="form-row">
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
+              <label for="reservation-name">Your name (required)</label>
+                <input type="text" name="name" class="form-control" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" id="reservation-name" aria-required="true" aria-describedby="reservation-name-error" autocomplete="name">
+              <div class="validate" id="reservation-name-error"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
-              <div class="validate"></div>
+              <label for="reservation-email">Email address (required)</label>
+                <input type="email" class="form-control" name="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" id="reservation-email" aria-required="true" aria-describedby="reservation-email-error" autocomplete="email">
+              <div class="validate" id="reservation-email-error"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
+              <label for="reservation-phone">Phone number (required)</label>
+                <input type="text" class="form-control" name="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars" id="reservation-phone" aria-required="true" aria-describedby="reservation-phone-error" autocomplete="tel" inputmode="tel">
+              <div class="validate" id="reservation-phone-error"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
+              <label for="reservation-date">Date (required)</label>
+                <input type="text" name="date" class="form-control" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars" id="reservation-date" aria-required="true" aria-describedby="reservation-date-error">
+              <div class="validate" id="reservation-date-error"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
+              <label for="reservation-time">Time (required)</label>
+                <input type="text" class="form-control" name="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars" id="reservation-time" aria-required="true" aria-describedby="reservation-time-error">
+              <div class="validate" id="reservation-time-error"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
-              <div class="validate"></div>
+              <label for="reservation-people">Number of guests (required)</label>
+                <input type="number" class="form-control" name="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars" id="reservation-people" aria-required="true" aria-describedby="reservation-people-error">
+              <div class="validate" id="reservation-people-error"></div>
             </div>
           </div>
           <div class="form-group">
-            <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
-            <div class="validate"></div>
+            <label for="reservation-message">Message (optional)</label>
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" id="reservation-message"></textarea>
+            <div class="validate" id="reservation-message-error"></div>
           </div>
           <div class="mb-3">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+            <div class="loading" role="status">Loading</div>
+            <div class="error-message" role="alert"></div>
+            <div class="sent-message" role="status">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
           </div>
           <div class="text-center"><button type="submit">Book a Table</button></div>
         </form>
@@ -806,7 +721,7 @@
       </div>
 
       <div data-aos="fade-up">
-        <iframe src="https://www.google.com/maps/embed?pb=!4v1619576993480!6m8!1m7!1sfJeP28kVpBa1g_wPFjyXvg!2m2!1d36.82709527100202!2d-79.39832540077994!3f86.3181!4f0!5f0.7820865974627469" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe title="Street view of J+T's on the Main in Chatham" src="https://www.google.com/maps/embed?pb=!4v1619576993480!6m8!1m7!1sfJeP28kVpBa1g_wPFjyXvg!2m2!1d36.82709527100202!2d-79.39832540077994!3f86.3181!4f0!5f0.7820865974627469" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </div>
 
       <div class="container" data-aos="fade-up">
@@ -817,13 +732,13 @@
             <div class="info">
               <div class="address">
                 <i class="icofont-google-map"></i>
-                <h4>Location:</h4>
+                <h3>Location:</h3>
                 <p>33 N Main St, Chatham, VA 24531</p>
               </div>
 
               <div class="open-hours">
                 <i class="icofont-clock-time icofont-rotate-90"></i>
-                <h4>Open Hours:</h4>
+                <h3>Open Hours:</h3>
                 <p>
                   Tuesday-Saturday:<br>
                   5:00 PM - until close
@@ -832,13 +747,13 @@
 
               <div class="email">
                 <i class="icofont-envelope"></i>
-                <h4>Email:</h4>
+                <h3>Email:</h3>
                 <p>JandTsonthemain@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="icofont-phone"></i>
-                <h4>Call:</h4>
+                <h3>Call:</h3>
                 <p>+1 (434) 433 2182</p>
               </div>
 
@@ -848,29 +763,33 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="forms/contact.php" method="post" aria-label="Contact the restaurant" class="php-email-form">
               <div class="form-row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
+                  <label for="contact-name">Your name (required)</label>
+                <input type="text" name="name" class="form-control" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" id="contact-name" aria-required="true" aria-describedby="contact-name-error" autocomplete="name">
+                  <div class="validate" id="contact-name-error"></div>
                 </div>
                 <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
+                  <label for="contact-email">Email address (required)</label>
+                <input type="email" class="form-control" name="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" id="contact-email" aria-required="true" aria-describedby="contact-email-error" autocomplete="email">
+                  <div class="validate" id="contact-email-error"></div>
                 </div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
+                <label for="contact-subject">Subject (required)</label>
+                <input type="text" class="form-control" name="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 4 characters for the subject" id="contact-subject" aria-required="true" aria-describedby="contact-subject-error">
+                <div class="validate" id="contact-subject-error"></div>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="8" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validate"></div>
+                <label for="contact-message">Message (required)</label>
+                <textarea class="form-control" name="message" rows="8" data-rule="required" data-msg="Please write something for us" placeholder="Message" id="contact-message" aria-required="true" aria-describedby="contact-message-error"></textarea>
+                <div class="validate" id="contact-message-error"></div>
               </div>
               <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="loading" role="status">Loading</div>
+                <div class="error-message" role="alert"></div>
+                <div class="sent-message" role="status">Your message has been sent. Thank you!</div>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
@@ -893,21 +812,25 @@
             <div class="footer-info">
               <div class="social-links mt-3">
                 <h3>Visit us on Facebook!</h3>
-                <a href="https://www.facebook.com/jtsonthemain/" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.facebook.com/jtsonthemain/" class="facebook" aria-label="Visit J+T's on Facebook"><i class="bx bxl-facebook"></i></a>
               </div>
             </div>
 
             <div class="container">
               <div class="copyright">
-                &copy; Copyright 2021 <strong><span>J+T's on the Main</span></strong>. All Rights Reserved
+                &copy; Copyright <strong><span>J+T's on the Main</span></strong>. All Rights Reserved
               </div>
           
 
+            </div>
+        </div>
+      </div>
+    </div>
   </footer>
   <!--End Footer -->
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+
+  <a href="#" class="back-to-top" aria-label="Back to top"><i class="bx bx-up-arrow-alt"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -915,12 +838,11 @@
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/menu.js"></script>
 
 </body>
 
