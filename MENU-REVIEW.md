@@ -1,5 +1,7 @@
 # Menu photo transcription
 
+Current update: Travis confirmed soup is no longer served. Soup of the Day and its price have been removed; the combined category is now Salads. The 52 remaining menu entries are unchanged. The source description below records the original printed photos.
+
 Sources: the project owner's 17234.heic (appetizers, soup/salad, kids, desserts, beverages) and 17235.heic (entrees, pasta, sides, add-ons). These replace the old website's menu copy and prices. Original photos are unchanged and are not published to the repository.
 
 Market-price entries now display **Market Price** in full, per the latest design request; the transcription table retains MP as shorthand. Handwritten prices take precedence over printed prices; no readable handwritten numeric replacements were visible in these two photos. The five blacked-out scallop prices were initially flagged because their MP annotations were not legible. The project owner explicitly confirmed that all five are MP: grilled and blackened scallop appetizers, grilled scallops entree, grilled shrimp and scallops entree, and grilled scallops add-on. No prices remain unreadable or unresolved.
@@ -16,7 +18,6 @@ Market-price entries now display **Market Price** in full, per the latest design
 | starters | Sauteed Garlic Mushrooms | $7.00 | No description printed |
 | starters | Crab Stuffed Mushrooms | $11.00 | No description printed |
 | starters | Fried Pickles | $7.00 | No description printed |
-| salads | Soup of the Day (cup) | $4.00 | No description printed |
 | salads | House Salad | $5.00 | With choice of dressing. Mixed greens topped with shredded carrots and cheddar cheese, fresh cucumbers, red onions, tomatoes and croutons. Dressings: Ranch, Bleu Cheese, 1000 Island, Italian, Honey Mustard, French, Balsamic Vinaigrette. |
 | salads | Side Caesar | $6.00 | No description printed |
 | salads | Chicken Caesar Salad | $16.00 | No description printed |
